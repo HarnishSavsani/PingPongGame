@@ -65,9 +65,9 @@ var Game = {
 
     this.difficultySettings = {
       easy: { aiSpeed: 5, ballSpeed: 7, speedIncrease: 0.5 },
-      medium: { aiSpeed: 6, ballSpeed: 8, speedIncrease: 0.7 },
-      complex: { aiSpeed: 7, ballSpeed: 9, speedIncrease: 1.0 },
-      impossible: { aiSpeed: 8, ballSpeed: 10, speedIncrease: 1.5 },
+      medium: { aiSpeed: 7, ballSpeed: 8, speedIncrease: 0.7 },
+      complex: { aiSpeed: 8, ballSpeed: 9, speedIncrease: 1.0 },
+      impossible: { aiSpeed: 11, ballSpeed: 10, speedIncrease: 1.5 },
     };
     this.currentDifficulty = "easy";
 
