@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #f3e5f5; /* Light purple background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1400px; /* Match canvas width */
+  padding: 0 20px;
+  position: absolute;
+  top: 20px;
+}
+
+h2 {
+  color: #4a148c; /* Deep purple for title */
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#menu {
+  display: flex;
+  gap: 10px;
+}
+
+#playBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6a1b9a; /* Medium purple button */
+  color: #e1bee7; /* Light purple text */
+  border: none;
+  border-radius: 5px;
+}
+
+#playBtn:hover {
+  background-color: #4a148c; /* Deep purple on hover */
+}
+
+#difficulty {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #e1bee7; /* Light purple background for dropdown */
+  border: 1px solid #4a148c; /* Deep purple border */
+  color: #4a148c; /* Deep purple text */
+}
+
+#pongCanvas {
+  background-color: #4a148c; /* Deep purple background for canvas */
+  border: 2px solid #e1bee7; /* Light purple border */
+}
+
+p {
+  color: #4a148c; /* Deep purple text */
+}
